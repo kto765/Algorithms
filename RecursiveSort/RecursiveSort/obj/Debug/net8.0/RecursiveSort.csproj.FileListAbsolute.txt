@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\RecursiveSort\RecursiveSort\bin\Debug\net8.0\RecursiveSort.exe
+C:\Users\User\source\repos\RecursiveSort\RecursiveSort\bin\Debug\net8.0\RecursiveSort.deps.json
+C:\Users\User\source\repos\RecursiveSort\RecursiveSort\bin\Debug\net8.0\RecursiveSort.runtimeconfig.json
+C:\Users\User\source\repos\RecursiveSort\RecursiveSort\bin\Debug\net8.0\RecursiveSort.dll
+C:\Users\User\source\repos\RecursiveSort\RecursiveSort\bin\Debug\net8.0\RecursiveSort.pdb
+C:\Users\User\source\repos\RecursiveSort\RecursiveSort\obj\Debug\net8.0\RecursiveSort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\RecursiveSort\RecursiveSort\obj\Debug\net8.0\RecursiveSort.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\RecursiveSort\RecursiveSort\obj\Debug\net8.0\RecursiveSort.AssemblyInfo.cs
+C:\Users\User\source\repos\RecursiveSort\RecursiveSort\obj\Debug\net8.0\RecursiveSort.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\RecursiveSort\RecursiveSort\obj\Debug\net8.0\RecursiveSort.dll
+C:\Users\User\source\repos\RecursiveSort\RecursiveSort\obj\Debug\net8.0\refint\RecursiveSort.dll
+C:\Users\User\source\repos\RecursiveSort\RecursiveSort\obj\Debug\net8.0\RecursiveSort.pdb
+C:\Users\User\source\repos\RecursiveSort\RecursiveSort\obj\Debug\net8.0\RecursiveSort.genruntimeconfig.cache
+C:\Users\User\source\repos\RecursiveSort\RecursiveSort\obj\Debug\net8.0\ref\RecursiveSort.dll

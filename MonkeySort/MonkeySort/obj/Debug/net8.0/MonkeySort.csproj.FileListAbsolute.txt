@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\MonkeySort\MonkeySort\bin\Debug\net8.0\MonkeySort.exe
+C:\Users\User\source\repos\MonkeySort\MonkeySort\bin\Debug\net8.0\MonkeySort.deps.json
+C:\Users\User\source\repos\MonkeySort\MonkeySort\bin\Debug\net8.0\MonkeySort.runtimeconfig.json
+C:\Users\User\source\repos\MonkeySort\MonkeySort\bin\Debug\net8.0\MonkeySort.dll
+C:\Users\User\source\repos\MonkeySort\MonkeySort\bin\Debug\net8.0\MonkeySort.pdb
+C:\Users\User\source\repos\MonkeySort\MonkeySort\obj\Debug\net8.0\MonkeySort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\MonkeySort\MonkeySort\obj\Debug\net8.0\MonkeySort.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\MonkeySort\MonkeySort\obj\Debug\net8.0\MonkeySort.AssemblyInfo.cs
+C:\Users\User\source\repos\MonkeySort\MonkeySort\obj\Debug\net8.0\MonkeySort.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\MonkeySort\MonkeySort\obj\Debug\net8.0\MonkeySort.dll
+C:\Users\User\source\repos\MonkeySort\MonkeySort\obj\Debug\net8.0\refint\MonkeySort.dll
+C:\Users\User\source\repos\MonkeySort\MonkeySort\obj\Debug\net8.0\MonkeySort.pdb
+C:\Users\User\source\repos\MonkeySort\MonkeySort\obj\Debug\net8.0\MonkeySort.genruntimeconfig.cache
+C:\Users\User\source\repos\MonkeySort\MonkeySort\obj\Debug\net8.0\ref\MonkeySort.dll
