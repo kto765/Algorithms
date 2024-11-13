@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\RecursiveSort\\RecursiveSort\\RecursiveSort.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Algorithms\\RecursiveSort\\RecursiveSort\\RecursiveSort.csproj",
       "projectName": "RecursiveSort",
-      "projectPath": "C:\\Users\\User\\source\\repos\\RecursiveSort\\RecursiveSort\\RecursiveSort.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Algorithms\\RecursiveSort\\RecursiveSort\\RecursiveSort.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\RecursiveSort\\RecursiveSort\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Algorithms\\RecursiveSort\\RecursiveSort\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

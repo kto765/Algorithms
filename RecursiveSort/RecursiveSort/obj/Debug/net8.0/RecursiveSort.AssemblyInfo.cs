@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RecursiveSort")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+368be819adb1fec2041afe2a5c584511cd42b0df")]
 [assembly: System.Reflection.AssemblyProductAttribute("RecursiveSort")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RecursiveSort")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

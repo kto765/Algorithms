@@ -1,61 +1,103 @@
-﻿using System;
-
+﻿
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Введите числа для сортировки, разделенные пробелами:");
-        string input = Console.ReadLine();
+        Console.WriteLine("Введите количество элементов массива:");
+        int n = int.Parse(Console.ReadLine()); // Количество элементов
 
-        // Преобразуем строку ввода в массив целых чисел
-        string[] inputArray = input.Split(' ');
-        int[] numbers = Array.ConvertAll(inputArray, int.Parse);
+        int[] array = new int[n]; // Создание массива заданного размера
 
-        // Выводим исходный массив
-        Console.WriteLine("Исходный массив: " + string.Join(" ", numbers));
+        // Запрашиваем ввод элементов массива
+        Console.WriteLine("Введите элементы массива (через пробел):");
+        string[] input = Console.ReadLine().Split(' '); // Разбитие строки на элементы 
 
-        // Сортируем массив
-        QuickSort(numbers, 0, numbers.Length - 1);
-
-        // Выводим отсортированный массив
-        Console.WriteLine("Отсортированный массив: " + string.Join(" ", numbers));
-    }
-
-    static void QuickSort(int[] array, int low, int high)
-    {
-        if (low < high)
+        for (int i = 0; i < n; i++)
         {
-            // Находим индекс разделителя
-            int pivotIndex = Partition(array, low, high);
-
-            // Рекурсивно сортируем элементы до и после разделителя
-            QuickSort(array, low, pivotIndex - 1);
-            QuickSort(array, pivotIndex + 1, high);
+            array[i] = int.Parse(input[i]); // Преобразование строки в числа
         }
+
+        Console.WriteLine("Исходный массив:");
+        PrintArray(array); // Вывод исходного массива
+
+        MergeSort(array); // Запуск сортировки
+
+        Console.WriteLine("nОтсортированный массив:");
+        PrintArray(array); // Вывод отсортированного массива
     }
 
-    static int Partition(int[] array, int low, int high)
+    // Сортировка массива с использованием сортировки слиянием
+    static void MergeSort(int[] array)
     {
-        int pivot = array[high]; // Берем последний элемент как опорный
-        int i = low - 1; // Индекс меньшего элемента
+        if (array.Length <= 1) // если массив пустой или содержит один элемент
+            return;
 
-        for (int j = low; j < high; j++)
+        int mid = array.Length / 2; // середина массива
+
+        // Деление массива на две половины
+        int[] left = new int[mid];
+        int[] right = new int[array.Length - mid];
+
+        // Копируем данные в левую сторону
+        Array.Copy(array, 0, left, 0, mid);
+        // Копируем данные в правую сторону
+        Array.Copy(array, mid, right, 0, array.Length - mid);
+
+        // Рекурсивно сортируем обе стороны
+        MergeSort(left);
+        MergeSort(right);
+
+        // Сливаем отсортированные стороны
+        Merge(array, left, right);
+    }
+
+    // Слияние двух отсортированных массивов
+    static void Merge(int[] array, int[] left, int[] right)
+    {
+        int i = 0; // Индекс для левой половины
+        int j = 0; // Индекс для правой половины
+        int k = 0; // Индекс для основного массива
+
+        // Сравниваем элементы из левой и правой половин и заполняем основной массив
+        while (i < left.Length && j < right.Length)
         {
-            // Если текущий элемент меньше или равен опорному
-            if (array[j] <= pivot)
+            if (left[i] <= right[j])
             {
+                array[k] = left[i]; // элемент из левой половины меньше или равен
                 i++;
-                Swap(array, i, j); // Меняем местами
             }
+            else
+            {
+                array[k] = right[j]; // элемент из правой половины меньше
+                j++;
+            }
+            k++;
         }
-        Swap(array, i + 1, high); // Ставим опорный элемент на его правильное место
-        return i + 1;
+
+        // Оставшиеся элементы из левой половины 
+        while (i < left.Length)
+        {
+            array[k] = left[i];
+            i++;
+            k++;
+        }
+
+        // Оставшиеся элементы из правой половины 
+        while (j < right.Length)
+        {
+            array[k] = right[j];
+            j++;
+            k++;
+        }
     }
 
-    static void Swap(int[] array, int i, int j)
+    // Метод для отображения элементов массива
+    static void PrintArray(int[] array)
     {
-        int temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
+        foreach (var item in array)
+        {
+            Console.Write(item + " "); // Выводим каждый элемент массива
+        }
+        Console.WriteLine(); // Переходим на новую строку после вывода массива
     }
 }
