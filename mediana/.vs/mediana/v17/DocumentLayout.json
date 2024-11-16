@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\mediana\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7728EFD3-73A4-46BC-9843-FB2A32C815A3}|mediana\\mediana.csproj|c:\\users\\user\\desktop\\mediana\\mediana\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7728EFD3-73A4-46BC-9843-FB2A32C815A3}|mediana\\mediana.csproj|solutionrelative:mediana\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\mediana\\mediana\\Program.cs",
+              "RelativeDocumentMoniker": "mediana\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\mediana\\mediana\\Program.cs",
+              "RelativeToolTip": "mediana\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T09:07:06.018Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
